@@ -1,6 +1,6 @@
 # Exercício: Implementando algoritmos de busca no PAC-MAN
 
-**NOME**: NOME DO ALUNO
+**NOME**: Fernando dos Santos Gomes
 
 ## Descrição
 O jogo Pac-Man consiste em mover o personagem (Pac-Man, o círculo amarelo com uma boca) em um labirinto, e tentar comer o maior número de tabletes possível, ao mesmo tempo em que deve evitar o contato com os fantasmas. O Pac-Man vence o jogo se comer todos os tabletes do labirinto. 
