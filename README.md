@@ -7,10 +7,10 @@ O jogo Pac-Man consiste em mover o personagem (Pac-Man, o círculo amarelo com u
 
 O projeto Pac-Man foi desenvolvido na Universidade de Berkeley para a disciplina de Introdução à Inteligência Artificial. A idéia do projeto é aplicar algumas técnicas clássicas de IA no jogo, para  servir como ferramenta da apoio para o ensino e aprendizagem de conceitos fundamentais de IA. 
 
-Este repositório contém uma cópia do código original (mais detalhes podem ser encontrados [aqui](http://ai.berkeley.edu/search.html) ). 
+Este repositório contém uma cópia do código original (mais detalhes podem ser encontrados [aqui](http://ai.berkeley.edu/search.html) ) adaptados para python 3 [aqui](https://github.com/jspacco/pac3man/tree/master/search). 
 
 ## Requisitos
-- Python 2.7
+- Python 3
 
 ## Orientações iniciais
 Clone o repositório, em seguida, no diretório `pacman/`, jogue uma partida digitando:

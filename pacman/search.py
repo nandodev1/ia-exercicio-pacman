@@ -10,13 +10,14 @@
 # (denero@cs.berkeley.edu) and Dan Klein (klein@cs.berkeley.edu).
 # Student side autograding was added by Brad Miller, Nick Hay, and
 # Pieter Abbeel (pabbeel@cs.berkeley.edu).
+
+
 """
 In search.py, you will implement generic search algorithms which are called by
 Pacman agents (in searchAgents.py).
 """
 
 import util
-from game import Directions
 
 class SearchProblem:
     """
@@ -66,7 +67,7 @@ def tinyMazeSearch(problem):
     Returns a sequence of moves that solves tinyMaze.  For any other maze, the
     sequence of moves will be incorrect, so only use this for tinyMaze.
     """
-    # from game import Directions
+    from game import Directions
     s = Directions.SOUTH
     w = Directions.WEST
     return  [s, s, w, s, w, w, s, w]
@@ -81,27 +82,21 @@ def depthFirstSearch(problem):
     To get started, you might want to try some of these simple commands to
     understand the search problem that is being passed in:
 
-    print "Start:", problem.getStartState()
-    print "Is the start a goal?", problem.isGoalState(problem.getStartState())
-    print "Start's successors:", problem.getSuccessors(problem.getStartState())
+    print("Start:", problem.getStartState())
+    print("Is the start a goal?", problem.isGoalState(problem.getStartState()))
+    print("Start's successors:", problem.getSuccessors(problem.getStartState()))
     """
     "*** YOUR CODE HERE ***"
     util.raiseNotDefined()
 
-
 def breadthFirstSearch(problem):
-    """
-    Search the shallowest nodes in the search tree first.
-    DICA: Utilizar util.PriorityQueue
-    *** YOUR CODE HERE ***
-    """
+    """Search the shallowest nodes in the search tree first."""
+    "*** YOUR CODE HERE ***"
     util.raiseNotDefined()
 
-    
 def uniformCostSearch(problem):
-    """Search the node of least total cost first.
-    *** YOUR CODE HERE ***
-    """
+    """Search the node of least total cost first."""
+    "*** YOUR CODE HERE ***"
     util.raiseNotDefined()
 
 def nullHeuristic(state, problem=None):
